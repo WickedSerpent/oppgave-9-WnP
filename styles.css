@@ -10,7 +10,7 @@
     box-shadow: 0px 0px 0em 0em #ff0000;
     /*samme med sirklene som også blir stylet nedenfor*/
     border-radius: 50%;
-    transition: all .7s ease-in;
+    transition: all .7s ease-in-out;
 }
 .container {
     display:flex;
