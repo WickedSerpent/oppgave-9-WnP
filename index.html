@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="boxy" id="boxy1" onclick=klikk(this)></div>
+        <div class="boxy" id="boxy2" onclick=klikk(this)></div>
+        <div class="boxy" id="boxy3" onclick=klikk(this)></div>
+        <div class="boxy" id="boxy4" onclick=klikk(this)></div>
+        <div class="boxy" id="boxy5" onclick=klikk(this)></div>
+    </div>
+    <input class=sjekkbox type="checkbox"  onchange="toggleStyle(this,'rødBackGround')">bakgrunn rød</input>
+    <input class=sjekkbox type="checkbox"  onchange='toggleStyle(this, "borderBlå")'>Blå dobbel-kant</input>
+    <input class=sjekkbox type="checkbox"  onchange='toggleStyle(this, "skygge")'>Skygge</input>
+    <input class=sjekkbox type="checkbox"  onchange='toggleStyle(this, "opacity")'>Gjennomsiktighet: 50%</input>
+    <input class=sjekkbox type="checkbox"  onchange='toggleStyle(this, "firkant")'>kant den!</input>
+    <input class=sjekkbox type="checkbox"  onchange='toggleStyle(this, "opacity")'>Gjennomsiktighet: 50%</input>
+    <input class=sjekkbox type="checkbox"  onchange='toggleStyle(this, "flamme")'>Stek boksen</input>
+    <script src="script.js"></script>    
+    </html>
+</body>
