@@ -23,9 +23,9 @@ margin-top: 1em;
 .aktiv {
     position: relative;
     transform: scale(1.5);
-    transition: transform .4s ease-out;
+    transition: transform .5s ease-out;
     box-shadow: 0px 0px 0.8em 0.3em #ffee00;
-    transition: box-shadow .4s ease-in;
+    transition: box-shadow .3s ease-in;
 }
 
 .skygge {
